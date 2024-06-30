@@ -1,0 +1,679 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(font/roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'playfair display';
+    src: url(font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/* header  section */
+.sec1text1 {
+    margin: 0px 0px 0px 200px;
+
+}
+
+.sec1a {
+    width: 300px;
+}
+
+.sec1text1>img {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.sec1text1>a {
+    color: rgb(121, 123, 125);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 5px 0px 0px;
+    font-size: 14px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.sec1h {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* navbar section */
+.navbar {
+    background-color: #FFFFFF;
+    height: 92px;
+    width: 100%;
+    margin: 20px 0px 0px;
+    border-radius: 5px;
+    padding: 35px 50px;
+    z-index: 5;
+
+}
+
+.navicons>i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.navicons>i:hover {
+    color: #cca772;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.navlink {
+    width: 0px;
+    height: 60px;
+    text-align: left;
+    padding: 15px 0px 0px;
+}
+
+.navlink>a {
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #131230;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'playfair display', serif;
+
+}
+
+#home {
+    color: #cca772;
+}
+
+#icons,
+#icon {
+    color: #cca772;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: 50px;
+    height: 44px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* LUXURY section  */
+.section3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(5, 5, 5, 0.712)), url(img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 200px 0px;
+}
+
+.sec3text>h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.sec3text>h2 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-family: 'playfair display', serif;
+
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+#sec3h {
+    font-style: italic;
+}
+
+.sec3button2 {
+    height: 60px;
+    width: 150px;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'playfair display', serif;
+    outline: none;
+    border: 1px solid #cca772;
+    margin: 10px 20px;
+
+}
+
+.sec3button2:hover {
+    color: #ffffff;
+    background-color: #cca772;
+    transition: 0.5s ease-out;
+}
+
+/* aboutsetion */
+.inputboxm {
+    position: relative;
+    top: -100px;
+    right: 0px;
+}
+
+.section4 {
+    background-color: #FFFFFF;
+    /* padding: 300px 0px 100px; */
+}
+
+.sec4box {
+    padding: 300px 0px 100px;
+}
+
+.sec4button {
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #cca772;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    font-family: 'playfair display', serif;
+    border: 1px solid #cca772;
+    margin: 10px 0px;
+
+}
+
+.sec4button:hover {
+    color: #cca772;
+    transition: 0.5s ease-out;
+    background-color: transparent;
+
+}
+
+.sec4right>h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.sec4right>p {
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.inputboxm {
+    padding: 20px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px #a7a3a3;
+}
+
+.sec4button {
+    height: 60px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #cca772;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'playfair display', serif;
+    outline: none;
+    border: 1px solid #cca772;
+    margin: 20px 20px;
+}
+
+/* price section */
+
+.section5 {
+    background-color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+.sec4textbox>select {
+    height: 60px;
+    width: 250px;
+    margin: 10px;
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+
+.sec4text>h1 {
+    font-family: 'playfair display', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+
+
+}
+
+form>input {
+    height: 60px;
+    width: 250px;
+    margin: 10px !important;
+    padding: 10px 0px;
+    text-transform: capitalize;
+
+}
+
+.card1 {
+    width: 380px;
+    height: 670px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px #a7a3a3;
+
+}
+
+.boxtext>h1 {
+    font-family: 'playfair display', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+
+
+}
+
+.boxtext>h4 {
+    height: 100%;
+    font-family: 'playfair display', serif;
+    font-size: 18px;
+    padding: 30px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+
+
+}
+
+.sec5textbox2 {
+    justify-content: space-between;
+}
+
+.card1>p {
+    margin: 30px 0px;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+}
+
+.card1>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    margin: 20px 0px 0px;
+    font-size: 15px;
+}
+
+.sec5h {
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* video section */
+.section6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(5, 5, 5, 0.712)), url(img/video-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 100px 0px;
+}
+
+.sec6text>i {
+    color: #cca772;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 25px 35px;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.sec6text>h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    margin: 20px 0px;
+
+}
+
+.sec6text>p {
+    margin: 20px 0px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+}
+
+#arrowright:hover {
+    padding: 0px 10px 0px 10px;
+    color: rgb(255, 182, 6);
+    transition: ease-in-out 0.7s;
+}
+
+/* feature section */
+.section7 {
+    background-color: #F2F2F2F2;
+    padding: 50px 0px;
+}
+
+.sec7img {
+    margin: 50px 0px;
+
+}
+
+.sec7text>h1 {
+    font-family: 'playfair display', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sec7textbox {
+    padding: 0px;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sec7text {
+    margin: 50px 0px;
+    padding: 10px;
+    height: 200px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+
+.sec7text1 {
+    padding: 10px;
+}
+
+.sec7h1 {
+    height: 50px;
+    margin: 0px auto;
+}
+
+.sec7h1>h4 {
+    font-size: 20px;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    padding: 5px;
+    height: 100%;
+}
+
+.sec7h1>i {
+    color: #CCA772;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.sec7h2 {
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+    color: rgb(121, 121, 121);
+    text-transform: capitalize;
+    padding: 5px 40px;
+}
+
+/* guest section */
+.section8 {
+    background-color: #FFFFFF;
+    padding: 50px 0px;
+}
+
+.sec8text>h1 {
+    font-family: 'playfair display', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sec8text1 {
+    padding: 10px;
+    background: #F2F2F2F2;
+}
+
+.sec8h1 {
+    height: 120px;
+    margin: 0px auto;
+
+}
+
+.sec8h1>img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.sec8h2>h4 {
+    font-size: 25px;
+    font-family: 'open sans', sans-serif;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 0px 40px;
+    font-weight: bolder;
+    margin-top: 50px
+}
+
+.sec8h2,
+.sec8h1>p {
+    margin: 0px 0px;
+    color: rgb(121, 121, 121);
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+}
+
+.sec8text1:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px #a7a3a3;
+}
+
+/* event section */
+.card2 {
+    width: 380px;
+    height: 650px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(249, 249, 255);
+}
+
+.sec9img>img {
+    object-fit: cover;
+}
+
+.card2>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #131230;
+    font-size: 14px;
+    font-family: 'roboto' sans-serif;
+    margin: 10px 0px;
+}
+
+
+.linkp {
+    margin: 10px 0px;
+    font-family: 'playfair display', serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.reveiw {
+    margin: 10px 0px;
+}
+
+.reveiw>i {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.reveiw>p {
+    font-size: 10px;
+    padding: 10px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px;
+
+}
+
+.link {
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 10px 0px;
+    font-family: 'playfair display', serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.link:hover {
+    color: #CCA772;
+    transition: 0.5s ease-out;
+}
+
+/* footer section  */
+.section10 {
+    background-color: rgb(11, 26, 42);
+    padding: 100px 0px;
+}
+
+
+.section11 {
+    padding: 100px 0px;
+    background-color: #FFFFFF;
+
+}
+
+.o {
+    text-transform: capitalize;
+    font-size: 17px;
+    width: 260px;
+    height: 40px;
+    padding: 0px 5px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    outline: none;
+    color: #000000;
+}
+
+.i {
+    padding: 0px 10px 0px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(0, 81, 210);
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sec10text1>a {
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #7b838a;
+    margin: 20px 0px;
+    font-size: 14px;
+    font-family: 'roboto' sans-serif;
+    font-weight: lighter;
+}
+
+.sec10text1>h4 {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.sec10text1>a:hover {
+    color: #CCA772;
+    cursor: pointer;
+    transition: 0.2ms ease-out;
+}
+
+.section11 {
+    padding: 20px 10px;
+    background-color: rgb(11, 26, 42);
+}
+
+.sec11link {
+    text-decoration: none;
+    color: #CCA772;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.sec10text1>p {
+    color: #7b838a;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+}
+
+.sec11text1>p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.sec11text2>p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.sec11icons {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: auto;
+    margin: 10px 5px 0px 0px;
+    background-color: rgb(47, 60, 74);
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.sec11icons:hover {
+    background-color: #CCA772;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
